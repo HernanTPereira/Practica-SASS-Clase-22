@@ -1,0 +1,53 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-image: url("../img/Ilustración_sin_título.jpg");
+    background-size: cover;
+    background-position: center -1050px;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+h1{
+    background-color: #000000;
+    margin-bottom: 90px;
+    color: azure;
+}
+
+h2{
+    background-color: #000000;
+    color: azure;
+}
+
+footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #005677;
+    color: azure;
+    padding: 10px;
+}
+
+.iconos{
+    width: 30px;
+}
